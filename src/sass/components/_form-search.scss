@@ -1,0 +1,39 @@
+.search-result {
+  // position: relative;
+  // z-index: 999;
+  // display: flex;
+
+  // position: absolute;
+  // z-index: 9999999;
+  max-height: 440px;
+  background-color: $main-color;
+  overflow-y: scroll;
+
+}
+
+.search-result__item {
+  display: flex;
+  // justify-content: space-between;
+
+  &:hover {
+    background-color: rgba(100, 100, 100, .4);
+    // font-weight: 500;
+    color: $accent-color;
+    // scale: 1.02;
+  }
+
+  &:hover .search-result__date {
+    color: $advanced-color;
+  }
+}
+
+.search-result__title {
+  // color: red;
+  padding: 1px 7px;
+
+}
+
+.search-result__date {
+  font-weight: 500;
+  color: $accent-color;
+}

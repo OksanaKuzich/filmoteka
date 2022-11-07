@@ -1,0 +1,102 @@
+body {
+  background-color: $main-invert-color;
+  transition: all 400ms linear;
+}
+
+body.dark__theme {
+  background-color: rgb(43, 40, 40);
+  transition: all 400ms linear;
+
+  & .tui-pagination.custom-tui-pagination .tui-page-btn {
+    color: $main-invert-color;
+
+    &:hover,
+    &:focus {
+      color: #000;
+    }
+
+
+  }
+
+  & .modal {
+    background-color: rgb(43, 40, 40);
+    color: $main-invert-color;
+
+    & .vote-count {
+      background-color: rgb(140, 140, 140);
+    }
+
+    & .trailer__button {
+      color: rgb(140, 140, 140);
+    }
+  }
+
+  & .mobalClose__btn {
+    background-image: url(/src/img/closeLight.svg);
+  }
+
+  & .footer {
+    background: linear-gradient(180deg,
+        rgb(43, 40, 40),
+        rgb(156, 156, 156) 100%);
+
+    &-content {
+      color: $main-invert-color;
+    }
+
+    &-btn {
+      color: $main-invert-color;
+    }
+  }
+
+  & .movies__item {
+    transition: box-shadow 250ms linear;
+    box-shadow: 0 2px 4px rgba(255, 107, 1, 0.5);
+
+    &:hover {
+      box-shadow: 0 0 10px 3px rgba(255, 107, 1, 0.5);
+    }
+  }
+
+  & .movies__title {
+    color: rgb(194, 196, 197);
+  }
+
+  & .team-wrapper {
+    background-image: url('../img/ukraine.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  & .movie__button.active {
+    // transition: background-color 300ms linear, border 300ms linear, color 300ms linear, box-shadow 300ms linear;
+    box-shadow: inset 20px 20px 60px #cf5301,
+      inset -30px -30px 60px #fafafa;
+  }
+
+
+  & .movie__button:hover,
+  & .movie__button:focus {
+    // border: 4px solid #ff6906;
+    box-shadow: inset -20px -20px 60px #e25a00,
+      inset 20px 20px 60px #f8f8f8,
+      5px 5px 10px #000000,
+      -2px -2px 7px #aba8a8;
+  }
+
+  & .active.movie__button:hover,
+  & .active.movie__button:focus {
+    // background: blue;
+    // box-shadow: 5px 5px 15px #000000,
+    //   -5px -5px 15px #707070;
+    box-shadow: inset 20px 20px 60px #ffa95e,
+      inset -20px -20px 60px #6b2b00,
+      5px 5px 10px #000,
+      -2px -2px 7px #aba8a8;
+  }
+}
+
+.tui-page-button .tui-ico-ellip {
+  color: #f8f8f8;
+}
