@@ -15,7 +15,7 @@
   "author": "Oksana Kuzich <komoks255@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OksanaKuzich/filmoteka/issues"
+    "url": "https://github.com/OksanaKuzich/filmoteka"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
