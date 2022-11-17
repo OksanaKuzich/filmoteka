@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NilKad/js-project-7.git"
+    "url": "git+https://github.com/OksanaKuzich/filmoteka"
   },
   "keywords": [],
-  "author": "Alexander Kadulin <kadulin@gmail.com>",
+  "author": "Oksana Kuzich <komoks255@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NilKad/js-project-7/issues"
+    "url": "https://github.com/OksanaKuzich/filmoteka/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
